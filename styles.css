@@ -25,72 +25,173 @@ a div{
   border-radius:inherit;
 }
 a:nth-child(1){
-  border-radius:0 40vmin 0 0;
-  left: 80%;
-  width: 640px;
-  transform-origin: -10% 110%;
-  transition:transform .4s .15s;
+  border-radius:0 0 30vmin 0;
+  width: 50%; height: 50%; 
+  left:50%;
+  transform-origin: -10% -10%;
+  transition:transform .4s .3s;
 }
 a:nth-child(1) div{
-  background-image:url('arxivfavicon.gif');
+  background-image:url('green.png');
 }
 a:nth-child(2){
-  border-radius:20vmin 0 20vmin 10vmin;
-  left:122.5%;
-  transform-origin: 110% -10%;
-  transition:transform 2s .6s;
+  border-radius:0 0 30vmin 0;
+  width: 40%; height: 40%; 
+  left:50%;
+  transform-origin: -10% -10%;
+  transition:transform .4s .3s;
 }
 a:nth-child(2) div{
-  background-image:url('blue.jpg');
+  background-image: url('purple.jpg');
 }
 a:nth-child(3){
+  border-radius:0 0 30vmin 0;
+  width: 30%; height: 30%; 
+  left:50%;
+  transform-origin: -10% -10%;
+  transition:transform .4s .3s;
+}
+a:nth-child(3) div{
+  background-image: url('yellow.jpg');
+}
+a:nth-child(4){
+  border-radius:0 0 30vmin 0;
+  width: 20%; height: 20%; 
+  left:50%;
+  transform-origin: -10% -10%;
+  transition:transform .4s .3s;
+}
+a:nth-child(4) div{
+  background-image:url('red.png');
+}
+a:nth-child(5){
   border-radius:0 0 30vmin 0;
   width: 50%; height: 50%; 
   top:50%; left:50%;
   transform-origin: -10% -10%;
   transition:transform .4s .3s;
 }
-a:nth-child(3) div{
+a:nth-child(5) div{
   background-image:url('green.png');
 }
-a:nth-child(4){
+a:nth-child(6){
   border-radius:0 0 30vmin 0;
   width: 40%; height: 40%; 
   top:50%; left:50%;
   transform-origin: -10% -10%;
   transition:transform .4s .3s;
 }
-a:nth-child(4) div{
+a:nth-child(6) div{
   background-image: url('purple.jpg');
 }
-a:nth-child(5){
+a:nth-child(7){
   border-radius:0 0 30vmin 0;
   width: 30%; height: 30%; 
   top:50%; left:50%;
   transform-origin: -10% -10%;
   transition:transform .4s .3s;
 }
-a:nth-child(5) div{
+a:nth-child(7) div{
   background-image: url('yellow.jpg');
 }
-a:nth-child(6){
+a:nth-child(8){
   border-radius:0 0 30vmin 0;
   width: 20%; height: 20%; 
   top:50%; left:50%;
   transform-origin: -10% -10%;
   transition:transform .4s .3s;
 }
-a:nth-child(6) div{
+a:nth-child(8) div{
   background-image:url('red.png');
 }
-a:nth-child(7){
+a:nth-child(9){
+  border-radius:0 0 0 30vmin;
+  width: 50%; height: 50%; 
+  top:50%;
+  transform-origin: 110% -10%;
+  transition:transform .4s .3s;
+}
+a:nth-child(9) div{
+  background-image:url('green.png');
+}
+a:nth-child(10){
+  border-radius:0 0 0 30vmin;
+  width: 40%; height: 40%; 
+  top:50%; left:10%;
+  transform-origin: 110% -10%;
+  transition:transform .4s .3s;
+}
+a:nth-child(10) div{
+  background-image: url('purple.jpg');
+}
+a:nth-child(11){
+  border-radius:0 0 0 30vmin;
+  width: 30%; height: 30%; 
+  top:50%; left:20%;
+  transform-origin: 110% -10%;
+  transition:transform .4s .3s;
+}
+a:nth-child(11) div{
+  background-image: url('yellow.jpg');
+}
+a:nth-child(12){
+  border-radius:0 0 0 30vmin;
+  width: 20%; height: 20%; 
+  top:50%; left:30%;
+  transform-origin: 110% -10%;
+  transition:transform .4s .3s;
+}
+a:nth-child(12) div{
+  background-image:url('red.png');
+}
+a:nth-child(13){
+  border-radius: 30vmin 0 0 0;
+  width: 50%; height: 50%; 
+  
+  transform-origin: 110% -10%;
+  transition:transform .4s .3s;
+}
+a:nth-child(13) div{
+  background-image:url('green.png');
+}
+a:nth-child(14){
+  border-radius: 30vmin 0 0 0;
+  width: 40%; height: 40%; 
+  top:10%; left:10%;
+  transform-origin: 110% -10%;
+  transition:transform .4s .3s;
+}
+a:nth-child(14) div{
+  background-image: url('purple.jpg');
+}
+a:nth-child(15){
+  border-radius: 30vmin 0 0 0;
+  width: 30%; height: 30%; 
+  top:20%; left:20%;
+  transform-origin: 110% -10%;
+  transition:transform .4s .3s;
+}
+a:nth-child(15) div{
+  background-image: url('yellow.jpg');
+}
+a:nth-child(16){
+  border-radius: 30vmin 0 0 0;
+  width: 20%; height: 20%; 
+  top:30%; left:30%;
+  transform-origin: 110% -10%;
+  transition:transform .4s .3s;
+}
+a:nth-child(16) div{
+  background-image:url('red.png');
+}
+a:nth-child(17){
   width:20%; height:20%;
   left:40%; top:40%;
   border-radius:10vmin;
   box-shadow:0 0 0 1vmin #E3DFD2;
   transform:scale(1);
 }
-a:nth-child(7) div{
+a:nth-child(17) div{
   background-image: url('pointblank.png');
 }
 span{
