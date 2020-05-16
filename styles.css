@@ -4,7 +4,7 @@ body{background-image:url('skeleLaugh.gif');}
   position:relative;
   width:80vmin; height:80vmin;
   margin:0 auto;
-  background:inherit;
+  background:;
   transform:scale(0.2) translatez(0px);
   opacity:0;
   transition:transform .5s, opacity .5s;
@@ -20,7 +20,7 @@ a{
 a div{
   height:100%;
   background-size:cover;
-  opacity:.5;
+  opacity:.3;
   transition:opacity .5s;
   border-radius:inherit;
 }
@@ -30,7 +30,7 @@ a:nth-child(1){
   left:50%;
   transform-origin: 110% -10%;
   transition:transform .4s .3s;
-  opacity:.5;
+  opacity:.3;
 }
 a:nth-child(1) div{
   background-color: #bec8d1;
@@ -41,7 +41,7 @@ a:nth-child(2){
   left:50%; top:10%;
   transform-origin: 110% -10%;
   transition:transform .4s .3s;
-  opacity:.5;
+  opacity:.3;
 }
 a:nth-child(2) div{
   background-color: #86cecb;
@@ -52,7 +52,7 @@ a:nth-child(3){
   left:50%; top:20%;
   transform-origin: 110% -10%;
   transition:transform .4s .3s;
-  opacity:.5;
+  opacity:.3;
 }
 a:nth-child(3) div{
   background-color: #137a7f;
@@ -63,7 +63,7 @@ a:nth-child(4){
   left:50%; top:30%;
   transform-origin: 110% -10%;
   transition:transform .4s .3s;
-  opacity:.5;
+  opacity:.3;
 }
 a:nth-child(4) div{
   background-color:   #e12885;
@@ -74,7 +74,7 @@ a:nth-child(5){
   top:50%; left:50%;
   transform-origin: -10% -10%;
   transition:transform .4s .3s;
-  opacity:.5;
+  opacity:.3;
 }
 a:nth-child(5) div{
   background-color: #bec8d1;
@@ -85,7 +85,7 @@ a:nth-child(6){
   top:50%; left:50%;
   transform-origin: -10% -10%;
   transition:transform .4s .3s;
-  opacity:.5;
+  opacity:.3;
 }
 a:nth-child(6) div{
   background-color: #86cecb;
@@ -96,7 +96,7 @@ a:nth-child(7){
   top:50%; left:50%;
   transform-origin: -10% -10%;
   transition:transform .4s .3s;
-  opacity:.5;
+  opacity:.3;
 }
 a:nth-child(7) div{
   background-color: #137a7f;
@@ -107,7 +107,7 @@ a:nth-child(8){
   top:50%; left:50%;
   transform-origin: -10% -10%;
   transition:transform .4s .3s;
-  opacity:.5;
+  opacity:.3;
 }
 a:nth-child(8) div{
   background-color:   #e12885;
@@ -118,7 +118,7 @@ a:nth-child(9){
   top:50%;
   transform-origin: 110% -10%;
   transition:transform .4s .3s;
-  opacity:.5;
+  opacity:.3;
 }
 a:nth-child(9) div{
   background-color: #bec8d1;
@@ -129,7 +129,7 @@ a:nth-child(10){
   top:50%; left:10%;
   transform-origin: 110% -10%;
   transition:transform .4s .3s;
-  opacity:.5;
+  opacity:.3;
 }
 a:nth-child(10) div{
   background-color: #86cecb;
@@ -140,7 +140,7 @@ a:nth-child(11){
   top:50%; left:20%;
   transform-origin: 110% -10%;
   transition:transform .4s .3s;
-  opacity:.5;
+  opacity:.3;
 }
 a:nth-child(11) div{
   background-color: #137a7f;
@@ -151,7 +151,7 @@ a:nth-child(12){
   top:50%; left:30%;
   transform-origin: 110% -10%;
   transition:transform .4s .3s;
-  opacity:.5;
+  opacity:.3;
 }
 a:nth-child(12) div{
   background-color:   #e12885;
@@ -162,7 +162,7 @@ a:nth-child(13){
   
   transform-origin: 110% -10%;
   transition:transform .4s .3s;
-  opacity:.5;
+  opacity:.3;
 }
 a:nth-child(13) div{
   background-color: #bec8d1;
@@ -173,7 +173,7 @@ a:nth-child(14){
   top:10%; left:10%;
   transform-origin: 110% -10%;
   transition:transform .4s .3s;
-  opacity:.5;
+  opacity:.3;
 }
 a:nth-child(14) div{
   background-color: #86cecb;
@@ -184,7 +184,7 @@ a:nth-child(15){
   top:20%; left:20%;
   transform-origin: 110% -10%;
   transition:transform .4s .3s;
-  opacity:.5;
+  opacity:.3;
 }
 a:nth-child(15) div{
   background-color: #137a7f;
@@ -195,7 +195,7 @@ a:nth-child(16){
   top:30%; left:30%;
   transform-origin: 110% -10%;
   transition:transform .4s .3s;
-  opacity:.5;
+  opacity:.3;
 }
 a:nth-child(16) div{
   background-color:   #e12885;
@@ -236,7 +236,7 @@ span:hover + .wrap, .wrap:hover{
   opacity:1;
 }
 span:hover + .wrap a, .wrap:hover a{
-  transform:scale(1) translatez(0px);
+  transform:scale(1) translateZ(0px);
 }
 a:hover div{
   opacity:1;
