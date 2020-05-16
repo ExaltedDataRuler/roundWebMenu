@@ -29,7 +29,7 @@ a:nth-child(1){
   width: 50%; height: 50%; 
   left:50%;
   transform-origin: -10% 110%;
-  transition:transform .4s .3s;
+  transition:transform .4s ease;
   opacity:.3;
 }
 a:nth-child(1) div{
@@ -40,7 +40,7 @@ a:nth-child(2){
   width: 40%; height: 40%; 
   left:50%; top:10%;
   transform-origin: -10% 110%;
-  transition:transform .4s .3s;
+  transition:transform .4s ease;
   opacity:.3;
 }
 a:nth-child(2) div{
@@ -51,7 +51,7 @@ a:nth-child(3){
   width: 30%; height: 30%; 
   left:50%; top:20%;
   transform-origin: -10% 110%;
-  transition:transform .4s .3s;
+  transition:transform .4s ease;
   opacity:.3;
 }
 a:nth-child(3) div{
@@ -62,7 +62,7 @@ a:nth-child(4){
   width: 20%; height: 20%; 
   left:50%; top:30%;
   transform-origin: -10% 110%;
-  transition:transform .4s .3s;
+  transition:transform .4s ease;
   opacity:.3;
 }
 a:nth-child(4) div{
@@ -73,7 +73,7 @@ a:nth-child(5){
   width: 50%; height: 50%; 
   top:50%; left:50%;
   transform-origin: -10% -10%;
-  transition:transform .4s .3s;
+  transition:transform .4s ease;
   opacity:.3;
 }
 a:nth-child(5) div{
@@ -84,7 +84,7 @@ a:nth-child(6){
   width: 40%; height: 40%; 
   top:50%; left:50%;
   transform-origin: -10% -10%;
-  transition:transform .4s .3s;
+  transition:transform .4s ease;
   opacity:.3;
 }
 a:nth-child(6) div{
@@ -95,7 +95,7 @@ a:nth-child(7){
   width: 30%; height: 30%; 
   top:50%; left:50%;
   transform-origin: -10% -10%;
-  transition:transform .4s .3s;
+  transition:transform .4s ease;
   opacity:.3;
 }
 a:nth-child(7) div{
@@ -106,7 +106,7 @@ a:nth-child(8){
   width: 20%; height: 20%; 
   top:50%; left:50%;
   transform-origin: -10% -10%;
-  transition:transform .4s .3s;
+  transition:transform .4s ease;
   opacity:.3;
 }
 a:nth-child(8) div{
@@ -117,7 +117,7 @@ a:nth-child(9){
   width: 50%; height: 50%; 
   top:50%;
   transform-origin: 110% -10%;
-  transition:transform .4s .3s;
+  transition:transform .4s ease;
   opacity:.3;
 }
 a:nth-child(9) div{
@@ -128,7 +128,7 @@ a:nth-child(10){
   width: 40%; height: 40%; 
   top:50%; left:10%;
   transform-origin: 110% -10%;
-  transition:transform .4s .3s;
+  transition:transform .4s ease;
   opacity:.3;
 }
 a:nth-child(10) div{
@@ -139,7 +139,7 @@ a:nth-child(11){
   width: 30%; height: 30%; 
   top:50%; left:20%;
   transform-origin: 110% -10%;
-  transition:transform .4s .3s;
+  transition:transform .4s ease;
   opacity:.3;
 }
 a:nth-child(11) div{
@@ -150,7 +150,7 @@ a:nth-child(12){
   width: 20%; height: 20%; 
   top:50%; left:30%;
   transform-origin: 110% -10%;
-  transition:transform .4s .3s;
+  transition:transform .4s ease;
   opacity:.3;
 }
 a:nth-child(12) div{
@@ -161,7 +161,7 @@ a:nth-child(13){
   width: 50%; height: 50%; 
   
   transform-origin: 110% 110%;
-  transition:transform .4s .3s;
+  transition:transform .4s ease;
   opacity:.3;
 }
 a:nth-child(13) div{
@@ -172,7 +172,7 @@ a:nth-child(14){
   width: 40%; height: 40%; 
   top:10%; left:10%;
   transform-origin: 110% 110%;
-  transition:transform .4s .3s;
+  transition:transform .4s ease;
   opacity:.3;
 }
 a:nth-child(14) div{
@@ -183,7 +183,7 @@ a:nth-child(15){
   width: 30%; height: 30%; 
   top:20%; left:20%;
   transform-origin: 110% 110%;
-  transition:transform .4s .3s;
+  transition:transform .4s ease;
   opacity:.3;
 }
 a:nth-child(15) div{
@@ -194,7 +194,7 @@ a:nth-child(16){
   width: 20%; height: 20%; 
   top:30%; left:30%;
   transform-origin: 110% 110%;
-  transition:transform .4s .3s;
+  transition:transform .4s ease;
   opacity:.3;
 }
 a:nth-child(16) div{
