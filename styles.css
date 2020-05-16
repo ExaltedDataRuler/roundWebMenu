@@ -1,5 +1,5 @@
 body,html{margin:0;padding:0;height:100%;}
-body{background-image:url('goAway.gif');}
+body{background-image:url('skeleLaugh.gif');}
 .wrap{
   position:relative;
   width:80vmin; height:80vmin;
@@ -201,7 +201,7 @@ span{
   top:45vmin;
   width:10vmin; height:10vmin;
   border-radius:100%;
-  background-image: url('https://pointblank.company/favicon.ico');
+  background-image: url('skeleSlash.gif');
   transform:translateZ(0px);
 }
 span span{
