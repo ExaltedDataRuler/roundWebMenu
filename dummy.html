@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <video id='videoPlayer' width="320" height="240" controls="controls">
+       <source id='webmSource' src="movie.webm" type="video/webm" />
+       <source id='oggSource' src="movie.ogg" type="video/ogg" />
+    </video>
+
+
+    <script>
+      var player = document.getElementById('videoPlayer');
+
+      var webmVid = document.getElementById('webmSource');
+
+      player.pause();
+
+      var x = ["1","2","3","4","5"].sort(function() {
+         return 0.5 - Math.random();
+      })[0];
+
+      webmVid.src = "chinee" + x + ".webm";
+
+      player.load();
+      player.play();
+
+
+    </script>
+  </body>
+</html>
